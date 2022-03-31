@@ -1,18 +1,24 @@
 {
-  "name": "template",
+  "name": "soh",
   "version": "1.0.0",
-  "description": "Template for my web projects :D",
+  "description": "Oh, look a shiny octo journey :D",
+  "scripts": {
+    "start": "parcel",
+    "dev": "parcel serve",
+    "build": "parcel build"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Nwko/Template.git"
+    "url": "git+https://github.com/Nwko/shiny-octo-journey.git"
   },
-  "keywords": [
-    "template"
-  ],
   "author": "Nox",
   "license": "Unlicense",
   "bugs": {
-    "url": "https://github.com/Nwko/Template/issues"
+    "url": "https://github.com/Nwko/shiny-octo-journey/issues"
   },
-  "homepage": "https://github.com/Nwko/Template#readme"
+  "homepage": "https://github.com/Nwko/shiny-octo-journey#readme",
+  "devDependencies": {
+    "parcel": "^2.4.0",
+    "sass": "^1.49.10"
+  }
 }
