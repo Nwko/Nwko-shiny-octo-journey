@@ -1,6 +1,6 @@
 {
   "name": "soh",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Oh, look a shiny octo journey :D",
   "scripts": {
     "start": "parcel src/pages/* --dist-dir web",
@@ -27,7 +27,9 @@
   },
   "homepage": "https://github.com/Nwko/shiny-octo-journey#readme",
   "devDependencies": {
+    "@parcel/packager-raw-url": "2.4.1",
     "@parcel/transformer-sass": "2.4.1",
+    "@parcel/transformer-webmanifest": "2.4.1",
     "parcel": "^2.4.1",
     "sass": "^1.49.10"
   }

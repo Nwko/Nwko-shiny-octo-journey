@@ -1,0 +1,23 @@
+{
+  "name": "shiny octo journey",
+  "short_name": "soh",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#D8DEE9",
+  "lang": "en",
+  "scope": "/",
+  "theme_color": "#D7E4F2",
+  "description": "Oh, look a shiny octo journey :D",
+  "icons": [
+    {
+      "src": "./assets/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/ico"
+    },
+    {
+      "src": "./assets/soh.jpg",
+      "sizes": "640x640",
+      "type": "image/jpg"
+    }
+  ]
+}

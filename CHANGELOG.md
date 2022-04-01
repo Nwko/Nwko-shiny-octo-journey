@@ -1,4 +1,6 @@
-# v1.0.0
+# ChangeLog
+
+## v1.0.0
 
 - March 31st 2022 9:42PM
 - [+test]
@@ -13,3 +15,9 @@
 - 7:19PM
 - .gitignore file, a few styles,test themes that'll probably not be used and thats about it
 - [+change, +styles, +themes]
+
+## v1.0.1
+
+- April 1st 2022 11:09PM
+- [+version, +changes, +icon, +component, -todo]
+- Updated to version 1.0.1, made a few changes here and there, added an icon, added a component, completed a todo
