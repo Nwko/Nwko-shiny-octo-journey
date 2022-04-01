@@ -4,7 +4,7 @@
 set -e
 
 # Navigate into the build output directory
-cd dist
+cd public/
 
 # Initialize a new Git repository
 git init

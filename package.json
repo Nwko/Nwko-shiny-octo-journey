@@ -3,9 +3,18 @@
   "version": "1.0.0",
   "description": "Oh, look a shiny octo journey :D",
   "scripts": {
-    "start": "parcel",
-    "dev": "parcel serve src/pages/*",
-    "build": "parcel build"
+    "start": "parcel src/pages/* --dist-dir web",
+    "dev": "parcel serve src/pages/* --dist-dir www",
+    "build": "parcel build src/pages/*",
+    "deploy": "./Deploy.sh"
+  },
+  "targets": {
+    "frontend": {
+      "source": "src/pages/*"
+    },
+    "default": {
+      "distDir": "./public"
+    }
   },
   "repository": {
     "type": "git",
@@ -19,7 +28,7 @@
   "homepage": "https://github.com/Nwko/shiny-octo-journey#readme",
   "devDependencies": {
     "@parcel/transformer-sass": "2.4.1",
-    "parcel": "^2.4.0",
+    "parcel": "^2.4.1",
     "sass": "^1.49.10"
   }
 }
