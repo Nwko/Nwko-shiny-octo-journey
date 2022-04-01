@@ -10,3 +10,6 @@
 - April 1st 2022 5:02PM
 - Hope this works
 - [+test#3]
+- 7:19PM
+- .gitignore file, a few styles,test themes that'll probably not be used and thats about it
+- [+change, +styles, +themes]
