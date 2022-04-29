@@ -201,11 +201,11 @@ out
 # and uncomment the following lines
 # .pnp.*
 
-# build ###
+### build ###
 dist/*
 www/*
 web/*
-public/*
+public/
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,linux,node,sass,yarn
 

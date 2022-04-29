@@ -1,6 +1,6 @@
 {
   "name": "soh",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Oh, look a shiny octo journey :D",
   "scripts": {
     "start": "parcel src/pages/* --dist-dir web",
@@ -13,7 +13,7 @@
       "source": "src/pages/*"
     },
     "default": {
-      "distDir": "./public"
+      "distDir": "public/"
     }
   },
   "repository": {

@@ -53,3 +53,12 @@
     </li>
     </ul>
 </details>
+
+<details>
+  <summary>29th 2022 3:55PM</summary>
+  <ul>
+    <li>[+version, +styles, +pages, -todo, -dir, +changes]</li>
+    <li>
+      Updated to version 1.0.2, added styles removed styles, changes in pages, finished a todo, got rid of the public directory and made a changes here and there</li>
+    </ul>
+</details>

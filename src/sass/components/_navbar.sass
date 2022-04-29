@@ -3,21 +3,22 @@
 nav
     justify-content: space-between
     font-family: monospace
+    border: 1px solid $snow-storm-light
+    border-radius: 5px
+    margin: 0 auto
+    display: flexbox
+    color: $blue-gray-light
     font-size: 1.5rem
     padding: 0.5em
-    & > *
-        margin: 0 0.5em
 
 ul
     margin: 0
     padding: 0
-    & > *
-        margin: 0 0.5em
-        &:hover
+    &:hover
+        color: $snow-storm-darkest
+        cursor: pointer
+        & > *
             color: $snow-storm-darkest
-            cursor: pointer
-            & > *
-                color: $snow-storm-darkest
 
 li
     list-style: none
